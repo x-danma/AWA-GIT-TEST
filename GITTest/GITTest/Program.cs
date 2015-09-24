@@ -10,13 +10,11 @@ namespace GITTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hej Marcus!");
-            Console.WriteLine("Tjenare tjenare!");
             string hello = "Hello";
 
             foreach (var item in hello)
             {
-                Console.WriteLine(item);
+                Console.Write(item);
             }
             int a = 1;
             
