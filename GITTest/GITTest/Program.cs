@@ -12,6 +12,8 @@ namespace GITTest
         {
             Console.WriteLine("Hej Marcus!");
             Console.WriteLine("Tjenare tjenare!");
+            int a = 1;
+            
         }
     }
 }
