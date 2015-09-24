@@ -18,8 +18,9 @@ namespace GITTest
             {
                 Console.WriteLine(item);
             }
+            int a = 1;
+            
 
-            int a = 3;
             int b = 7;
 
             Console.WriteLine(Convert.ToString(AddTwoNumbers(a,b)));
