@@ -12,6 +12,12 @@ namespace GITTest
         {
             Console.WriteLine("Hej Marcus!");
             Console.WriteLine("Tjenare tjenare!");
+            string hello = "Hello";
+
+            foreach (var item in hello)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
