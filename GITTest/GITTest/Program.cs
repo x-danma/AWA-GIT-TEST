@@ -12,6 +12,18 @@ namespace GITTest
         {
             Console.WriteLine("Hej Marcus!");
             Console.WriteLine("Tjenare tjenare!");
+
+            int a = 3;
+            int b = 7;
+
+            Console.WriteLine(Convert.ToString(AddTwoNumbers(a,b)));
+
+        }
+
+       static public int AddTwoNumbers(int x, int z)
+        {
+            int c = x + z;
+            return c;
         }
     }
 }
